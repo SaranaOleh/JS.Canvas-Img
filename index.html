@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sarana.Oleh</title>
+    <style type="text/css">
+        .container > div:nth-child(2){
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <label>Horizontal
+                <input type="radio" class="horizontal" name="switch" checked>
+            </label>
+            <label>Vertical
+                <input type="radio" class="vertical" name="switch">
+            </label>
+        </div>
+        <div>
+            <button class="addImg">+</button>
+            <button class="delImg">-</button>
+        </div>
+        <div class="images">
+            <input class="firstImg" type="file" accept=".png, .gif, .jpeg, .jpg" data-id="1">
+            <input class="secondImg" type="file" accept=".png, .gif, .jpeg, .jpg" data-id="2">
+        </div>
+        <canvas></canvas>
+    </div>
+    <div class="container2">
+        <div>
+            <label>Horizontal
+                <input type="radio" class="horizontal" name="switchs" checked>
+            </label>
+            <label>Vertical
+                <input type="radio" class="vertical" name="switchs">
+            </label>
+        </div>
+        <div>
+            <button class="addImg">+</button>
+            <button class="delImg">-</button>
+        </div>
+        <div class="images">
+            <input class="firstImg" type="file" accept=".png, .gif, .jpeg, .jpg" data-id="1">
+            <input class="secondImg" type="file" accept=".png, .gif, .jpeg, .jpg" data-id="2">
+        </div>
+        <canvas></canvas>
+    </div>
+	<script src="main.js"></script>
+</body>
+</html>
